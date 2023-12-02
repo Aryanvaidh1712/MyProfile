@@ -1,0 +1,107 @@
+body{
+    margin: auto;
+    font-family: 'Rowdies', cursive;
+}
+
+.intro{
+    height: 600px;
+    border: 2px solid black;
+    background: #2d2a2a;
+}
+
+#profileimg > img{
+    height: 70%;
+    margin: 5%;
+    margin-left: 10%;
+    position: absolute;               
+}
+
+#introtext{
+    margin-top: 10%;
+    margin-left: 45%;
+    margin-right: 10%;
+    color: white;                
+}
+
+.menu{
+    background: white;
+    height: 80px;
+}
+
+.menubar{
+    margin-top: 1%;
+    height: 70px;
+    width: 80%;
+    background: grey;
+    margin-left: 125px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menuli{
+    margin-left: 14%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.menuli > a{
+    text-decoration: none;
+    color: black;
+}
+
+.menuli:hover{
+    font-size: 25px;
+}
+
+.skills{
+    height: 300px;
+    width: 100%;
+    background: black;
+    color: white;
+    position: absolute;
+}
+
+.textskill{
+    margin-left: 46%;
+    margin-top: 2%;
+}
+
+.skillli{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.location{
+    height: 587px;
+    margin-left: 20%;
+    margin-top: 23%;
+}
+
+#locationtext{
+    margin-left: 31%;
+}
+
+.social{
+    height: 230px;
+    width: 100%;
+    background: black;
+    color: white;
+    position: absolute;
+}
+
+.socialli{
+    margin-left: 10.5%;
+    margin-top: 2%;
+}
+
+.socialimg{
+    width: 50px;
+}
+
+footer{
+    margin-top: 18%;
+    margin-left: 40%;
+}
